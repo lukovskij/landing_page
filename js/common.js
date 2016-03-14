@@ -15,6 +15,7 @@ var aboutSum = about+team+links;
 
 $(document).ready(function() {
    //peremotka
+
     $('.mnu_fix li:nth-child(1)').click(function(){
        $.scrollTo('#home', 1000);
     });
